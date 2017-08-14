@@ -1,23 +1,36 @@
 body { 
+    
 }
 
 #header {
      background-color: yellow;
+     height: 38px;
 }
 
 #todo-group {
      background-color: violet;
+     float:left;
+     width: 20%;
+     height: 500px;
 }
 
 #todo-list {
      background-color: green;
+     float:left;
+     width: 50%;
+     height: 500px;
 }
 
 #todo-details {
      background-color: blue;
+     float:left;
+     width: 30%;
+     height: 500px;
+     
 }
 
 #footer {
      background-color: red;
+     clear:both;
 }
 
