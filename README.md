@@ -17,5 +17,8 @@
     - action  or icon (=span) 
 
 - block-level or inline level elements : https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
-- display : inline, block, inline-block
+- element margin, padding, border : https://www.w3schools.com/css/css_boxmodel.asp
+- display : http://dev.epiloum.net/834
+- position : static, relative, absolute, fixed  : https://www.zerocho.com/category/CSS/post/5864f3b59f1dc000182d3ea1
+- top, left bottom, right : 0px
 - e1, e2 or e1 e2 or e1 > e2 or e1 ~ e2
