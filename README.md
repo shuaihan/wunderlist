@@ -8,6 +8,8 @@
 <i class="fa fa-file"></i>
 <i class="fa fa-bars"></i>
 ```
+
+- Semantic 마크업이란 ?
 - Semantic ui : https://semantic-ui.com/
 - Naming
     - main, detail, navigation
