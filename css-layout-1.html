@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WunderList</title>
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .container {
+                 
+                border: 1px solid red;
+                height: 400px;
+                width:600px;
+            }
+/*
+            .child1, .child2, .child3 {
+                 width:100px;
+                height:100px;
+                background-color: green;    
+            }
+
+            .child2 {
+                flex-grow: 1;
+            }
+*/
+            .child1 {
+               
+               
+                position: relative;
+              
+                float:left;
+               width:100px;
+                height:100px;
+                background-color: red;    
+            }
+             .child2 {
+                 
+          
+             
+                width:100%;
+                height:100px;
+                background-color: green;    
+            }
+             .child3 {
+               
+                 position: relative;
+               
+                 float:right;
+                width:100px;
+                height:100px;
+                background-color: red;    
+            }
+
+            .sss {
+                padding: 5px; 
+                line-height: 100px;
+                text-overflow: ellipsis; white-space: nowrap; overflow: hidden;
+            }
+            .wrapper {
+                vertical-align: middle;
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+            }
+            
+        </style>    
+    </head>
+    <body>
+      <div class="container">
+          <div class="wrapper">
+            <div class="child1">1</div>
+            <div class="child3">3</div> 
+             <div class="child2">
+
+                <div class="sss">과거에 IE이외에 별도 처리를 하여야 가능했던 CSS text-overflow속성의 ellipsis(말줄임표)를
+모든 Majon브라우저에서 지원하는 모습을 테스트 중 발견하여 글을 남깁니다</div>
+             </div>
+        </div>
+
+      </div>    
+
+    </body>    
+<html>

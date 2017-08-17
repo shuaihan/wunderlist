@@ -7,6 +7,8 @@
 - css box model
     - http://www.unilearning.net/wp-content/uploads/2017/01/CSS-Box-Model.png
     - width, hegith는 border, padding, margin을 뺀 값이라는것이 포인트임.
+    - [CSS에서 마이너스마진 사용하기](http://naiyumie.tistory.com/entry/CSS-%EC%97%90%EC%84%9C-%EB%A7%88%EC%9D%B4%EB%84%88%EC%8A%A4-%EB%A7%88%EC%A7%84-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0) 
+    - float 의 반대 방향으로 마이너스 마진을 줘서 컨텐츠를 끌어올 수 있습니다
 - [inline level elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements)
 ```
 <a>, <b>, <big>, <i>, <small>, <tt>, <abbr>, <acronym>, <cite>
@@ -52,5 +54,28 @@
     - float:left or right : float를 선언하면 기존의 block level 의 width 100%는 사라지고 content에 맞는 width로 변경된다.
     - display:table
 	- display:grid
-    - display:flex
-    
+    - display:flex    
+-  [다양한 CSS Layouts 학습](http://www.free-css.com/free-css-layouts/page1)
+    - http://www.free-css.com/free-css-layouts/page1/css-layout-1
+    - UI component 학습.
+    - state : :focus, :active. :active.focus, :active:focus, .disabled. :hover
+- Wunderlist
+```
+class="main-interface"
+  id="modal"
+  id="lists" (left aside)
+    lists-inner
+      id=search-tollbar
+      id=user-toolbar
+      class=lists-scroll
+      sidebarAction
+  id="tasks"
+    list-toolbar
+    tasks-list
+    tasks
+    addTask
+contentinfo
+  top
+  body
+  bottom
+```

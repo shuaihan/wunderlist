@@ -1,1 +1,246 @@
+ 
 
+
+.main-interface {
+      background: url("./01.jpg");
+    width: 100%;
+    font-family: "Apple SD Gothic Neo", "Helvetica Neue", "Malgun Gothic", Helvetica, Arial, sans-serif;
+}
+
+#header {
+    background-color: #733e27;
+    height: 45px;
+     
+     
+}
+
+#clear {
+    clear: both;
+}
+
+#account {
+    position: relative;
+    float: left;
+    margin-left : 10px;
+    border: 1px solid white;
+    height: 40px;
+    width: 200px;
+     top: 50%;
+    transform: translateY(-50%);
+}
+
+
+#search-bar {
+    position: relative;
+    float: right;
+    width: 260px;
+   border: 1px solid white;
+   height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+   
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#task-group {
+    
+    position:relative;
+    float:left;
+    width: 280px;
+    /* https://webdesign.tutsplus.com/ko/articles/7-css-units-you-might-not-know-about--cms-22573*/
+    height: 100vh;
+    background-color: #f7f7f7;
+    
+}
+
+#list-scroll {
+ 
+    overflow-x:hidden;
+    overflow-y: auto;
+    height: calc(100% - 42px);
+}
+
+
+#add-group {
+    position: absolute;
+    bottom: 0px;
+    width: 280px;
+    height: 42px;
+    background: black;
+    
+}
+
+.task-group-item {
+    vertical-align: middle;
+    height: 38px;
+    list-style: none;
+    background-color: white;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+#tasks {
+    position: relative;
+    padding-left: 7px;
+    padding-right: 7px;
+  
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+
+#input-task {
+  height: 47px;
+  background: rgba(115,62,39,0.75);
+  margin: 14px 0;
+  border-radius: 3px;
+}
+
+.task-item {
+    height: 46px;
+    background: #fff;
+    list-style: none;
+    border-radius: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 5px;
+}
+
+.btn-completed-items {
+  background: rgba(115,62,39,0.75);
+  padding: 3px 10px; 
+  border-style:none;
+  color:white; 
+  margin-top: 20px !important;
+  margin-bottom: 10px;
+}
+
+#done-task-list .task-item {
+    opacity: 0.5;
+} 
+
+#task-toolbar-wrapper {
+   position: relative;
+    
+}
+
+.task-toolbar {
+    position: fixed;
+   
+    background: red;
+    width: 200px;
+    height : 50px;
+    
+    bottom: 0;
+    right: 0;
+   
+}
+
+#task-details-wrapper {
+ 
+}
+
+#task-details {
+  
+    position: relative;
+    float:right;
+    width: 367px;
+    height: 100vh;
+    
+    
+}
+
+#task-details-title {
+    height : 55px;
+    background-color: white;
+    border-bottom: 1px solid #ebebeb;
+    padding: 16px 50px 14px;
+}
+
+
+#task-details-scroll {
+    background-color: #f6f6f6;
+    overflow-x:hidden;
+    overflow-y: auto;
+    height: calc(100% - 90px);
+}
+
+#task-details-comment {
+    
+    position: absolute;
+    bottom: 0px;
+    width: 367px;
+    height: 90px;
+    background: black;
+    
+}
+
+#task-details-action{   
+    background: white;
+    height: 80px;
+    margin: 10px;
+}
+
+#task-details-sub {
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+
+.task-details-sub-item {
+    height:40px;
+    background-color: white;
+    border-bottom: 1px solid #d3e3ec;
+ 
+}
+
+.task-details-sub-item:first-child {
+   
+}
+
+#task-details-notes {
+    background: white;
+    height: 100px;
+    margin: 10px;
+}
+
+#task-details-comment-list {
+     background: white;
+    height: 100px;
+    margin: 10px;
+}
+
+/* -------- */
+.taskItem-body {
+    height: 45px;
+    display: flex;
+    padding-left: 4px;
+    padding-right: 4px;
+    align-items: center;
+}
+.taskItem-titleWrapper {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    font-weight: 500;
+    color: #262626;
+    cursor: default;
+    position: relative;
+    top: -1px;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.taskItem-body .taskItem-checkboxWrapper {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 20px;
+}
